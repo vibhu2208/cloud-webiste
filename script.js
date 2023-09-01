@@ -1,7 +1,7 @@
 const cursor = document.querySelector("#cursor");
 
 
-document.addEventListener("mousemove", (e) => {
+document.addEventListener("mousemove", function(e) {
   let X = e.pageX;
   let Y = e.pageY;
 

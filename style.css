@@ -22,8 +22,9 @@ html,body{
     height: 12px;
     border-radius: 50%;
     background-color: black;
-    position: absolute;
+    position: fixed;
     z-index: 999;
+    
 }
 #nav {
     display: flex;
